@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/indexx/indexx",
+    "pages/indexxx/indexxx",
+    "pages/indexxxx/indexxxx",
+    "pages/indexxxxx/indexxxxx"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff4500",
+    "navigationBarTitleText": "蔬菜播报",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#a1a1a1",
+    "selectedColor": "#ff6a33",
+    "list": [
+      {
+        "text": "菜价播报",
+        "pagePath": "pages/index/index",
+        "iconPath":"images/A1-.png",
+        "selectedIconPath":"images/A1.png"
+        
+      },
+      {
+        "text": "即时消息",
+        "pagePath": "pages/indexx/indexx",
+        "iconPath":"images/A2-.png",
+        "selectedIconPath":"images/A2.png"
+      },
+      {
+        "text": "发布",
+        "pagePath": "pages/indexxx/indexxx",
+        "iconPath":"images/A3-.png",
+        "selectedIconPath":"images/A3.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/indexxxx/indexxxx",
+        "iconPath":"images/A4-.png",
+        "selectedIconPath":"images/A4.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/indexxxxx/indexxxxx",
+        "iconPath":"images/A5-.png",
+        "selectedIconPath":"images/A5.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "scb-header":"/components/scb-header/scbheader"}
+}
